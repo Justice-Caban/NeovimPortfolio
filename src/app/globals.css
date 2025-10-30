@@ -34,43 +34,145 @@ body {
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
+
+  /* Dracula Theme */
+  .dracula {
+    --background: 231 15% 18%; /* #282a36 */
+    --foreground: 60 30% 96%; /* #f8f8f2 */
+    --card: 232 14% 24%; /* #363948 */
+    --card-foreground: 60 30% 96%;
+    --popover: 231 15% 18%;
+    --popover-foreground: 60 30% 96%;
+    --primary: 265 89% 78%; /* #bd93f9 purple */
+    --primary-foreground: 231 15% 18%;
+    --secondary: 326 100% 74%; /* #ff79c6 pink */
+    --secondary-foreground: 231 15% 18%;
+    --muted: 232 14% 31%; /* #44475a */
+    --muted-foreground: 231 15% 70%;
+    --accent: 191 97% 77%; /* #8be9fd cyan */
+    --accent-foreground: 231 15% 18%;
+    --destructive: 0 100% 67%; /* #ff5555 red */
+    --destructive-foreground: 231 15% 18%;
+    --border: 232 14% 31%; /* #44475a */
+    --input: 232 14% 31%;
+    --ring: 265 89% 78%;
+    --chart-1: 0 100% 67%; /* red */
+    --chart-2: 135 94% 65%; /* #50fa7b green */
+    --chart-3: 65 92% 76%; /* #f1fa8c yellow */
+    --chart-4: 31 100% 71%; /* #ffb86c orange */
+    --chart-5: 191 97% 77%; /* cyan */
+  }
+
+  /* Catppuccin Mocha Theme */
+  .catppuccin {
+    --background: 240 21% 15%; /* #1e1e2e base */
+    --foreground: 226 64% 88%; /* #cdd6f4 text */
+    --card: 229 16% 23%; /* #313244 surface0 */
+    --card-foreground: 226 64% 88%;
+    --popover: 240 21% 15%;
+    --popover-foreground: 226 64% 88%;
+    --primary: 267 84% 81%; /* #cba6f7 mauve */
+    --primary-foreground: 240 21% 15%;
+    --secondary: 316 72% 86%; /* #f5c2e7 pink */
+    --secondary-foreground: 240 21% 15%;
+    --muted: 230 13% 32%; /* #45475a surface1 */
+    --muted-foreground: 227 35% 80%; /* #bac2de subtext1 */
+    --accent: 189 71% 73%; /* #89dceb sky */
+    --accent-foreground: 240 21% 15%;
+    --destructive: 343 81% 75%; /* #f38ba8 red */
+    --destructive-foreground: 240 21% 15%;
+    --border: 228 13% 39%; /* #585b70 surface2 */
+    --input: 228 13% 39%;
+    --ring: 267 84% 81%;
+    --chart-1: 343 81% 75%; /* red */
+    --chart-2: 217 92% 76%; /* #89b4fa blue */
+    --chart-3: 115 54% 76%; /* #a6e3a1 green */
+    --chart-4: 41 86% 83%; /* #f9e2af yellow */
+    --chart-5: 170 57% 73%; /* #94e2d5 teal */
+  }
+
+  /* Gruvbox Dark Theme */
+  .gruvbox {
+    --background: 0 0% 16%; /* #282828 bg */
+    --foreground: 39 43% 80%; /* #ebdbb2 fg */
+    --card: 20 6% 22%; /* #3c3836 bg1 */
+    --card-foreground: 39 43% 80%;
+    --popover: 0 0% 16%;
+    --popover-foreground: 39 43% 80%;
+    --primary: 43 96% 58%; /* #fabd2f yellow */
+    --primary-foreground: 0 0% 16%;
+    --secondary: 333 42% 68%; /* #d3869b purple */
+    --secondary-foreground: 0 0% 16%;
+    --muted: 20 6% 28%; /* #504945 bg2 */
+    --muted-foreground: 30 16% 60%; /* #a89984 gray */
+    --accent: 106 40% 64%; /* #8ec07c aqua */
+    --accent-foreground: 0 0% 16%;
+    --destructive: 4 95% 59%; /* #fb4934 red */
+    --destructive-foreground: 0 0% 16%;
+    --border: 20 6% 28%; /* #504945 bg2 */
+    --input: 20 6% 28%;
+    --ring: 43 96% 58%;
+    --chart-1: 4 95% 59%; /* red */
+    --chart-2: 62 65% 45%; /* #b8bb26 green */
+    --chart-3: 43 96% 58%; /* yellow */
+    --chart-4: 24 99% 55%; /* #fe8019 orange */
+    --chart-5: 205 26% 59%; /* #83a598 blue */
+  }
+
+  /* Tokyo Night Theme */
+  .tokyonight {
+    --background: 235 18% 13%; /* #1a1b26 bg */
+    --foreground: 223 71% 84%; /* #c0caf5 fg */
+    --card: 228 26% 17%; /* #1f2335 bg_dark */
+    --card-foreground: 223 71% 84%;
+    --popover: 235 18% 13%;
+    --popover-foreground: 223 71% 84%;
+    --primary: 215 87% 70%; /* #7aa2f7 blue */
+    --primary-foreground: 235 18% 13%;
+    --secondary: 254 80% 78%; /* #bb9af7 magenta */
+    --secondary-foreground: 235 18% 13%;
+    --muted: 224 23% 44%; /* #565f89 comment */
+    --muted-foreground: 224 36% 75%; /* #a9b1d6 fg_dark */
+    --accent: 198 100% 74%; /* #7dcfff cyan */
+    --accent-foreground: 235 18% 13%;
+    --destructive: 354 87% 71%; /* #f7768e red */
+    --destructive-foreground: 235 18% 13%;
+    --border: 228 26% 17%; /* #1f2335 bg_dark */
+    --input: 228 26% 17%;
+    --ring: 215 87% 70%;
+    --chart-1: 354 87% 71%; /* red */
+    --chart-2: 90 61% 64%; /* #9ece6a green */
+    --chart-3: 38 68% 65%; /* #e0af68 yellow */
+    --chart-4: 215 87% 70%; /* blue */
+    --chart-5: 198 100% 74%; /* cyan */
+  }
+
   .dark {
-    --background: 229 18.644067645072937% 23.137255012989044%; /* base */
-    --foreground: 227 70.14925479888916% 86.86274290084839%; /* text */
-
-    --muted: 230 15.584415197372437% 30.19607961177826%; /* surface0 */
-    --muted-foreground: 227 43.689319491386414% 79.8039197921753%; /* subtext1 */
-
-    --popover: 229 18.644067645072937% 23.137255012989044%; /* base */
-    --popover-foreground: 227 70.14925479888916% 86.86274290084839%; /* text */
-
-    --card: 229 18.644067645072937% 23.137255012989044%; /* base */
-    --card-foreground: 227 70.14925479888916% 86.86274290084839%; /* text */
-
-    --border: 227 14.73684161901474% 37.254902720451355%; /* surface1 */
-    --input: 227 14.73684161901474% 37.254902720451355%; /* surface1 */
-
-    --primary: 172 39.22652006149292% 64.50980305671692%; /* accent - Teal */
-    --primary-foreground: 229 18.644067645072937% 23.137255012989044%; /* base */
-
-    --secondary: 230 15.584415197372437% 30.19607961177826%; /* surface0 */
-    --secondary-foreground: 227 70.14925479888916% 86.86274290084839%; /* text */
-
-    --accent: 230 15.584415197372437% 30.19607961177826%; /* surface0 */
-    --accent-foreground: 227 70.14925479888916% 86.86274290084839%; /* text */
-
-    --destructive: 359 67.78523325920105% 70.78431248664856%; /* red */
-    --destructive-foreground: 231 18.81188154220581% 19.80392187833786%; /* mantle */
-
-    --ring: 227 70.14925479888916% 86.86274290084839%; /* text */
-
+    --background: 229 18.644067645072937% 23.137255012989044%;
+    --foreground: 227 70.14925479888916% 86.86274290084839%;
+    --muted: 230 15.584415197372437% 30.19607961177826%;
+    --muted-foreground: 227 43.689319491386414% 79.8039197921753%;
+    --popover: 229 18.644067645072937% 23.137255012989044%;
+    --popover-foreground: 227 70.14925479888916% 86.86274290084839%;
+    --card: 229 18.644067645072937% 23.137255012989044%;
+    --card-foreground: 227 70.14925479888916% 86.86274290084839%;
+    --border: 227 14.73684161901474% 37.254902720451355%;
+    --input: 227 14.73684161901474% 37.254902720451355%;
+    --primary: 172 39.22652006149292% 64.50980305671692%;
+    --primary-foreground: 229 18.644067645072937% 23.137255012989044%;
+    --secondary: 230 15.584415197372437% 30.19607961177826%;
+    --secondary-foreground: 227 70.14925479888916% 86.86274290084839%;
+    --accent: 230 15.584415197372437% 30.19607961177826%;
+    --accent-foreground: 227 70.14925479888916% 86.86274290084839%;
+    --destructive: 359 67.78523325920105% 70.78431248664856%;
+    --destructive-foreground: 231 18.81188154220581% 19.80392187833786%;
+    --ring: 227 70.14925479888916% 86.86274290084839%;
     --radius: 0.5rem;
-
-    --chart-1: 359 67.78523325920105% 70.78431248664856%; /* red */
-    --chart-2: 172 39.22652006149292% 64.50980305671692%; /* teal */
-    --chart-3: 222 74.24242496490479% 74.11764860153198%; /* blue */
-    --chart-4: 40 62.043797969818115% 73.13725352287292%; /* yellow */
-    --chart-5: 96 43.90243887901306% 67.84313917160034%; /* green */
+    --chart-1: 359 67.78523325920105% 70.78431248664856%;
+    --chart-2: 172 39.22652006149292% 64.50980305671692%;
+    --chart-3: 222 74.24242496490479% 74.11764860153198%;
+    --chart-4: 40 62.043797969818115% 73.13725352287292%;
+    --chart-5: 96 43.90243887901306% 67.84313917160034%;
   }
 }
 
