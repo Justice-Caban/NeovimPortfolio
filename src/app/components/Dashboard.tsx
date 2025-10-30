@@ -123,14 +123,16 @@ export function Dashboard({ onAboutClick, onProjectsClick, onResumeClick, onThem
     <div className="flex flex-col items-center justify-center min-h-screen px-4 py-8 font-mono bg-background">
       {/* ASCII Art Title */}
       <div className="mb-8 text-center">
-        <pre className="text-xs sm:text-sm font-mono whitespace-pre-wrap break-words text-primary/80 mb-4 max-w-4xl">
-          {`░░░░░██╗██╗░░░██╗░██████╗████████╗██╗░█████╗░███████╗  ░█████╗░░█████╗░██████╗░░█████╗░███╗░░██╗
+        <div className="overflow-x-auto">
+          <pre className="text-[0.5rem] sm:text-xs md:text-sm font-mono whitespace-pre text-primary/80 mb-4 inline-block scale-75 sm:scale-90 md:scale-100 origin-center">
+            {`░░░░░██╗██╗░░░██╗░██████╗████████╗██╗░█████╗░███████╗  ░█████╗░░█████╗░██████╗░░█████╗░███╗░░██╗
 ░░░░░██║██║░░░██║██╔════╝╚══██╔══╝██║██╔══██╗██╔════╝  ██╔══██╗██╔══██╗██╔══██╗██╔══██╗████╗░██║
 ░░░░░██║██║░░░██║╚█████╗░░░░██║░░░██║██║░░╚═╝█████╗░░  ██║░░╚═╝███████║██████╦╝███████║██╔██╗██║
 ██╗░░██║██║░░░██║░╚═══██╗░░░██║░░░██║██║░░██╗██╔══╝░░  ██║░░██╗██╔══██║██╔══██╗██╔══██║██║╚████║
 ╚█████╔╝╚██████╔╝██████╔╝░░░██║░░░██║╚█████╔╝███████╗  ╚█████╔╝██║░░██║██████╦╝██║░░██║██║░╚███║
 ░╚════╝░░╚═════╝░╚═════╝░░░░╚═╝░░░╚═╝░╚════╝░╚══════╝  ░╚════╝░╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═╝░░╚══╝`}
-        </pre>
+          </pre>
+        </div>
         <div className="text-sm text-muted-foreground">
           Portfolio Dashboard
         </div>
