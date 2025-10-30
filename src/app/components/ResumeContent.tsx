@@ -66,7 +66,7 @@ export function ResumeContent() {
             <ul className="text-sm text-muted-foreground space-y-2">
               <li className="flex gap-2">
                 <span className="text-primary">•</span>
-                <span>Designed and deployed a serverless, event-driven pipeline in Go using AWS Lambda and SNS to ingest SIEM alerts, perform ETL operations, and automatically generate detailed Jira tickets. Authored comprehensive unit tests using Go's standard testing library to ensure reliability.</span>
+                <span>Designed and deployed a serverless, event-driven pipeline in Go using AWS Lambda and SNS to ingest SIEM alerts, perform ETL operations, and automatically generate detailed Jira tickets. Authored comprehensive unit tests using {"Go's"} standard testing library to ensure reliability.</span>
               </li>
               <li className="flex gap-2">
                 <span className="text-primary">•</span>
